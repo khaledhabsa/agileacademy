@@ -1,0 +1,42 @@
+.elementor-1539 .elementor-element.elementor-element-c920f5a:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-1539 .elementor-element.elementor-element-c920f5a > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-1539 .elementor-element.elementor-element-c920f5a > .elementor-element-populated{border-style:solid;border-width:1px 1px 1px 1px;border-color:#CAD6E0;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:40px 40px 40px 40px;}.elementor-1539 .elementor-element.elementor-element-c920f5a > .elementor-element-populated, .elementor-1539 .elementor-element.elementor-element-c920f5a > .elementor-element-populated > .elementor-background-overlay, .elementor-1539 .elementor-element.elementor-element-c920f5a > .elementor-background-slideshow{border-radius:8px 8px 8px 8px;}.elementor-1539 .elementor-element.elementor-element-c920f5a > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1539 .elementor-element.elementor-element-3f913cb{text-align:center;}.elementor-1539 .elementor-element.elementor-element-3f913cb img{height:200px;object-fit:contain;}.elementor-1539 .elementor-element.elementor-element-3f913cb > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-1539 .elementor-element.elementor-element-d503844 .elementor-heading-title{color:#0F1F26;font-family:"Merriweather", Sans-serif;font-size:24px;font-weight:700;line-height:36px;}.elementor-1539 .elementor-element.elementor-element-60dd091{color:#7A7A7A;font-family:"Open Sans", Sans-serif;font-size:16px;font-weight:400;}.elementor-1539 .elementor-element.elementor-element-60dd091 > .elementor-widget-container{margin:0px 0px 8px 0px;}.elementor-1539 .elementor-element.elementor-element-2a73ad3 .elementor-button{fill:#033A54;color:#033A54;background-color:#FFFFFF;border-style:solid;border-width:1px 1px 1px 1px;border-color:#033A54;border-radius:4px 4px 4px 4px;padding:10px 24px 10px 24px;}.elementor-1539 .elementor-element.elementor-element-2a73ad3 .elementor-button:hover, .elementor-1539 .elementor-element.elementor-element-2a73ad3 .elementor-button:focus{color:#FFFFFF;background-color:#033A54;}.elementor-1539 .elementor-element.elementor-element-2a73ad3 .elementor-button:hover svg, .elementor-1539 .elementor-element.elementor-element-2a73ad3 .elementor-button:focus svg{fill:#FFFFFF;}/* Start custom CSS for heading, class: .elementor-element-d503844 */.elementor-1539 .elementor-element.elementor-element-d503844{
+    min-height: 72px !important;
+    margin: 0
+}/* End custom CSS */
+/* Start custom CSS for text-editor, class: .elementor-element-60dd091 */.elementor-1539 .elementor-element.elementor-element-60dd091 div{
+    font-size: 16px !important;
+    line-height: 1.5em !important;
+    color:#7A7A7A !important;
+       overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+
+.elementor-1539 .elementor-element.elementor-element-60dd091 span{
+    font-size: 16px !important;
+    line-height: 1.5em !important;
+    color:#7A7A7A !important;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-d503844 */.elementor-1539 .elementor-element.elementor-element-d503844{
+    min-height: 72px !important;
+    margin: 0
+}/* End custom CSS */
+/* Start custom CSS for text-editor, class: .elementor-element-60dd091 */.elementor-1539 .elementor-element.elementor-element-60dd091 div{
+    font-size: 16px !important;
+    line-height: 1.5em !important;
+    color:#7A7A7A !important;
+       overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+
+.elementor-1539 .elementor-element.elementor-element-60dd091 span{
+    font-size: 16px !important;
+    line-height: 1.5em !important;
+    color:#7A7A7A !important;
+}/* End custom CSS */

@@ -1,0 +1,29 @@
+.elementor-989 .elementor-element.elementor-element-ccdb5ad > .elementor-container{max-width:800px;}.elementor-989 .elementor-element.elementor-element-ccdb5ad{margin-top:50px;margin-bottom:50px;}.elementor-989 .elementor-element.elementor-element-8fc84f1 .elementor-button{font-family:"Roboto", Sans-serif;font-weight:bold;text-decoration:underline;fill:#C34849;color:#C34849;background-color:#61CE7000;padding:0px 0px 0px 0px;}.elementor-989 .elementor-element.elementor-element-8699d71{color:#000000;font-family:"Open Sans", Sans-serif;font-size:28px;font-weight:700;}.elementor-989 .elementor-element.elementor-element-8699d71 > .elementor-widget-container{margin:-10px 0px 5px 0px;}@media(max-width:767px){.elementor-989 .elementor-element.elementor-element-8699d71{font-size:24px;}}/* Start custom CSS for text-editor, class: .elementor-element-23d0ecc */.elementor-989 .elementor-element.elementor-element-23d0ecc form.woocommerce-checkout{
+    width: 100% !important;
+}
+
+.elementor-989 .elementor-element.elementor-element-23d0ecc .elementor-editor-preview .woocommerce-notices-wrapper {
+    padding: 0;
+}
+
+.elementor-989 .elementor-element.elementor-element-23d0ecc h1{
+    display: none;
+}
+
+button#place_order {
+    background: #c34849;
+    font-weight: bold;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.elementor-989 .elementor-element.elementor-element-23d0ecc h2{
+    font-size: 17px;
+}
+
+.elementor-989 .elementor-element.elementor-element-23d0ecc img{
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: contain;
+}/* End custom CSS */

@@ -1,0 +1,128 @@
+
+/* Card Reset */
+
+	.card.column-card {
+		margin: 0;
+		min-width: unset;
+		max-width: none;
+		background: transparent;
+		border: 0 none;
+	}
+
+/* Form */
+
+	input[type="range"] {
+		-webkit-appearance: none;
+		min-width: 175px;
+		height: 5px;
+		border-radius: 5px;   
+		background: #dadada;
+		outline: none;
+		opacity: 0.7;
+		-webkit-transition: .3s;
+		transition: opacity .3s;
+	}
+
+	input[type="range"]::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%; 
+		background: #000;
+		cursor: pointer;
+	}
+
+	input[type="range"]::-moz-range-thumb {
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background: #000;
+		cursor: pointer;
+	}
+
+/* AJAX */
+
+	.loader {
+		display: none;
+		position: fixed;
+		top: calc(50% - 50px);
+		left: calc(50% - 25px);
+		z-index: 1;
+
+		margin: 0;
+		padding: 10px 20px;
+		background-color: #8c8f94;
+		border-radius: 5px;
+	} .loader:before {
+		content: '';
+		position: fixed;
+		top: 0; right: 0; bottom: 0; left: 0;
+		background-color: rgba(0,0,0,.5);
+	}
+
+	.loader > div {
+		width: 18px;
+		height: 18px;
+		background-color: #fff;
+		border-radius: 100%;
+		display: inline-block;
+		-webkit-animation: sk-bouncedelay 1.5s infinite ease-in-out both;
+		animation: sk-bouncedelay 1.5s infinite ease-in-out both;
+	} .loader > div:first-child {
+		-webkit-animation-delay: -.5s;
+		animation-delay: -.5s;
+	} .loader > div:nth-child(2) {
+		-webkit-animation-delay: -.25s;
+		animation-delay: -.25s;
+	}
+
+	@-webkit-keyframes sk-bouncedelay {
+		0%, 100%, 80% {
+			-webkit-transform: scale(0)
+		} 40% {
+			-webkit-transform: scale(1)
+		}
+	} @keyframes sk-bouncedelay {
+		0%, 100%, 80% {
+			-webkit-transform: scale(0);
+			transform: scale(0)
+		} 40% {
+			-webkit-transform: scale(1);
+			transform: scale(1)
+		}
+	}
+
+/* WooCommerce */
+
+	.woocommerce_options_panel input[type=date] {
+		width: 50%;
+		float: left;
+	}
+
+/* Users */
+
+	table.bookings-table, table.bookings-past-table, table.waitlists-table {
+		padding-bottom: 20px;
+	}
+
+	table.bookings-table th, table.bookings-table td,
+	table.bookings-past-table th, table.bookings-past-table td,
+	table.waitlists-table th, table.waitlists-table td {
+		border: 1px solid #8c8f94;
+		padding: .5rem 1rem;
+	}
+
+	h2.logs-headline, table.logs-table {
+		display: none;
+	}
+
+@media only screen and (max-width: 768px) {
+
+	table.bookings-table, table.bookings-past-table, table.waitlists-table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+		border: 0 none;
+	}
+}

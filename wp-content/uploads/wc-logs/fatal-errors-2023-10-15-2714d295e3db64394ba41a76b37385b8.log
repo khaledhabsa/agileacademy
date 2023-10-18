@@ -1,0 +1,2 @@
+2023-10-15T21:38:50+00:00 CRITICAL syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or ',' in /var/www/html/agile_elementor_pro/wp-content/plugins/essential-addons-elementor/includes/Elements/Team_Member_Carousel.php on line 2546
+

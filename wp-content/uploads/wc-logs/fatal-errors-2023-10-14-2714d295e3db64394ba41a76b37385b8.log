@@ -1,0 +1,39 @@
+2023-10-14T20:47:55+00:00 CRITICAL Uncaught Error: Call to undefined function get_stylesheet_directory_ur() in /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/custom_html.php:1
+Stack trace:
+#0 /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/functions.php(9): require_once()
+#1 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(310): {closure}()
+#2 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /var/www/html/agile_elementor_pro/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/html/agile_elementor_pro/wp-includes/general-template.php(3069): do_action()
+#5 /var/www/html/agile_elementor_pro/wp-content/themes/xstore/footer.php(56): wp_footer()
+#6 /var/www/html/agile_elementor_pro/wp-includes/template.php(785): require_once('/var/www/html/a...')
+#7 /var/www/html/agile_elementor_pro/wp-includes/template.php(720): load_template()
+#8 /var/www/html/agile_elementor_pro/wp-includes/general-template.php(92): locate_template()
+#9 /var/www/html/agile in /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/custom_html.php on line 1
+
+2023-10-14T20:48:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_stylesheet_directory_ur() in /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/custom_html.php:1
+Stack trace:
+#0 /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/functions.php(9): require_once()
+#1 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(310): {closure}()
+#2 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /var/www/html/agile_elementor_pro/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/html/agile_elementor_pro/wp-includes/general-template.php(3069): do_action()
+#5 /var/www/html/agile_elementor_pro/wp-content/themes/xstore/footer.php(56): wp_footer()
+#6 /var/www/html/agile_elementor_pro/wp-includes/template.php(785): require_once('/var/www/html/a...')
+#7 /var/www/html/agile_elementor_pro/wp-includes/template.php(720): load_template()
+#8 /var/www/html/agile_elementor_pro/wp-includes/general-template.php(92): locate_template()
+#9 /var/www/html/agile in /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/custom_html.php on line 1
+
+2023-10-14T20:48:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_stylesheet_directory_url() in /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/custom_html.php:1
+Stack trace:
+#0 /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/functions.php(9): require_once()
+#1 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(310): {closure}()
+#2 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /var/www/html/agile_elementor_pro/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/html/agile_elementor_pro/wp-includes/general-template.php(3069): do_action()
+#5 /var/www/html/agile_elementor_pro/wp-content/themes/xstore/footer.php(56): wp_footer()
+#6 /var/www/html/agile_elementor_pro/wp-includes/template.php(785): require_once('/var/www/html/a...')
+#7 /var/www/html/agile_elementor_pro/wp-includes/template.php(720): load_template()
+#8 /var/www/html/agile_elementor_pro/wp-includes/general-template.php(92): locate_template()
+#9 /var/www/html/agil in /var/www/html/agile_elementor_pro/wp-content/themes/xstore-child/custom_html.php on line 1
+

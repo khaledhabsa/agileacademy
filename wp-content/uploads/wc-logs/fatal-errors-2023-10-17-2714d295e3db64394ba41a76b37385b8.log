@@ -1,0 +1,12 @@
+2023-10-17T18:04:33+00:00 CRITICAL Uncaught Error: Class '\MailPoet\Form\Widget' not found in /var/www/html/agile_elementor_pro/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /var/www/html/agile_elementor_pro/wp-includes/widgets.php(115): WP_Widget_Factory->register()
+#1 /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/WP/Functions.php(424): register_widget()
+#2 /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Initializer.php(343): MailPoet\WP\Functions->registerWidget()
+#3 /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Initializer.php(333): MailPoet\Config\Initializer->setupWidget()
+#4 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(310): MailPoet\Config\Initializer->preInitialize()
+#5 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /var/www/html/agile_elementor_pro/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /var/www/html/agile_elementor_pro/wp-settings.php(632): do_action()
+#8 /var/www/htm in /var/www/html/agile_elementor_pro/wp-includes/class-wp-widget-factory.php on line 62
+

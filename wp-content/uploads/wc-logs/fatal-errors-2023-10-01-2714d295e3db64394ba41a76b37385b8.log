@@ -1,0 +1,24 @@
+2023-10-01T21:49:58+00:00 CRITICAL Uncaught MailPoet\InvalidStateException: MailPoet version update is in progress, please refresh the page in a minute. in /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Activator.php:65
+Stack trace:
+#0 /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Initializer.php(416): MailPoet\Config\Activator->activate()
+#1 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(310): MailPoet\Config\Initializer->maybeRunActivator()
+#2 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /var/www/html/agile_elementor_pro/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/html/agile_elementor_pro/wp-settings.php(632): do_action()
+#5 /var/www/html/agile_elementor_pro/wp-config.php(96): require_once('/var/www/html/a...')
+#6 /var/www/html/agile_elementor_pro/wp-load.php(50): require_once('/var/www/html/a...')
+#7 /var/www/html/agile_elementor_pro/wp-blog-header.php(13): require_once('/var/www/html/a...')
+#8 /var/ww in /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Activator.php on line 65
+
+2023-10-01T21:50:01+00:00 CRITICAL Uncaught MailPoet\InvalidStateException: MailPoet version update is in progress, please refresh the page in a minute. in /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Activator.php:65
+Stack trace:
+#0 /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Initializer.php(416): MailPoet\Config\Activator->activate()
+#1 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(310): MailPoet\Config\Initializer->maybeRunActivator()
+#2 /var/www/html/agile_elementor_pro/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /var/www/html/agile_elementor_pro/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/html/agile_elementor_pro/wp-settings.php(632): do_action()
+#5 /var/www/html/agile_elementor_pro/wp-config.php(96): require_once('/var/www/html/a...')
+#6 /var/www/html/agile_elementor_pro/wp-load.php(50): require_once('/var/www/html/a...')
+#7 /var/www/html/agile_elementor_pro/wp-admin/admin-ajax.php(22): require_once('/var/www/html/a...')
+#8 {m in /var/www/html/agile_elementor_pro/wp-content/plugins/mailpoet/lib/Config/Activator.php on line 65
+
